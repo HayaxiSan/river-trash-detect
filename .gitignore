@@ -1,1 +1,33 @@
-# seed
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# Notebook
+.ipynb_checkpoints/
+
+# 运行产物 / 日志（仓库只保留开发日志 md）
+output/
+*.log
+*.json.tmp
+
+# 板端备份文件
+*.bak
+*.bak_*
+*.bak_iou
+
+# 训练数据与临时文件（体积大，不入库）
+项目数据/
+项目文档/
+.kaggle-uploads/
+_dir*.txt
+_pt500b.txt
+_v12ft*.txt
+_zip_*.txt
+
+# 系统
+.DS_Store
+Thumbs.db
+desktop.ini

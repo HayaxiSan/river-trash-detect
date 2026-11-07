@@ -1,0 +1,12 @@
+[Unit]
+Description=Orange Pi WiFi Hotspot (create_ap)
+After=network.target
+
+[Service]
+Type=simple
+ExecStart=/usr/local/bin/create_ap -n wlan0 -c 36 --freq-band 5 orangepi orangepi
+Restart=always
+RestartSec=3
+
+[Install]
+WantedBy=multi-user.target

@@ -1,0 +1,14 @@
+# 板端 Python 依赖（Orange Pi 5 / Ubuntu 22.04 / Python 3.10）
+# 版本为板端实测值，锁定以避免 numpy/opencv 版本漂移
+numpy==2.2.6
+opencv-python-headless==5.0.0.93
+rknn-toolkit-lite2==2.3.2
+paho-mqtt==2.2.0
+psutil==7.2.2
+scipy==1.15.3
+lap==0.5.14
+luma.oled==3.16.0
+luma.core==2.6.0
+smbus2==0.6.1
+pillow==12.3.0
+cbor2==6.1.5
