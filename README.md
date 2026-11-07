@@ -2,11 +2,6 @@
 
 > 在香橙派 5 上用 NPU 做**离线**的河道漂浮垃圾实时检测：MIPI 摄像头取流 → RKNN 模型推理 → ByteTrack 跟踪 → RTSP 带框视频 / OLED 温度屏 / MQTT 手机告警。全部计算在板端完成，不依赖电脑或云端。
 
-<p>
-  <img src="assets/cap_041011.jpg" width="260" alt="摄像头原始画面">
-  <img src="assets/cap_041011_out.png" width="260" alt="推理后带框画面">
-</p>
-
 ---
 
 ## 1. 这个项目能干什么
@@ -165,8 +160,7 @@ river-trash-detect/
 │   └── orangepiEnv.txt        # overlay 示例
 ├── notebooks/                 # 训练与实测对比（不是运行必需）
 ├── logs/                      # 完整项目开发日志 13 篇（踩坑全过程）
-├── docs/                      # 分步复现文档（见下）
-└── assets/                    # 效果图
+└── docs/                      # 分步复现文档（见下）
 ```
 
 ---
